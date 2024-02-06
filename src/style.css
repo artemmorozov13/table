@@ -1,0 +1,29 @@
+#root {
+    max-width: 100vw;
+}
+
+.container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.columnInput {
+    width: 100%;
+    font-size: 10px;
+}
+
+td, th {
+    min-width: 300px;
+}
