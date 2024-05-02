@@ -17,7 +17,7 @@ const ROWS_PER_PAGE = 10
 // Я понимаю, что нужно получать лимит с бека, но успел только так
 const MAX_PAGE = 10;
 
-function App() {
+function App() { 
   const [data, setData] = useState([])
   const [page, setPage] = useState(1)
   const [error, setError] = useState(null)
